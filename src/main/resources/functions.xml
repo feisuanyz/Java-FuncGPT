@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<functions>
+
+
+    <function name="DateFunction"
+              classpath="com.feisuanyz.function.DateFunction"
+              desc="日期相关函数" />
+
+</functions>
