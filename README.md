@@ -1,58 +1,50 @@
-#### 温馨提示：
+#### 温馨提示
 
-a）使用慧函数前，请确保已安装SoFlu软件机器人后端全自动开发工具，并已完成账户注册；
+a）使用慧函数前，请确保已安装SoFlu软件机器人Java全自动开发工具，并已完成账户注册；
 
-b）已完成项目创建。
+b）如果您已经登录SoFlu的Java开发工具客户端，签到点击领取FuncGPT慧函数次数，并立即体验FuncGPT慧函数。
 
-#### 一、使用 AI 生成代码
+#### 一、自然语言描述Java函数需求生成函数
 
-#### 1. 进入慧函数页面，点击导航“函数库中心”
+#### 1. 点击主页面上方导航“函数库中心”。
 
-![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/0e18dc51-b609-469e-befe-7d993a567444)
+![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/99b37a57-9c76-473d-920e-4d27e00106e1)
 
-#### 2. 点击“编写函数”，进入代码编辑器
+#### 2. 点击右上方“编写函数”，进入WEB-IDE。
 
-![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/68b05c9d-4b44-4b59-862a-c95be218cc23)
+![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/061075ef-1ba4-4526-8e2a-a7f242918546)
 
-#### 3. 新建一个函数工程
+#### 3. 新建一个函数工程。
 
-![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/476d3448-e4ab-49ad-8de1-af2e20f9a111)
+![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/35df2257-dd3f-4d38-8546-f1294acf2377)
 
-a）填写包名
+#### 4. 填写Java包名和工程目录，并选择“AI生成代码”。
 
-![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/9e889e5d-2083-41a8-aeaa-68acdb4499fc)
+![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/afbce353-f016-4e76-ac02-ef35a987d161)
 
-b）选择“AI生成代码”
+![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/5a74d9dc-ffe6-417a-be99-b535e0ec5c32)
 
-![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/65f1e9a7-b946-417d-a7fd-29f11b1eabdc)
+#### 5.根据需求填写函数功能内容、类名、高级选项等，点击生成代码。
 
-c）填写函数功能
+![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/f9942010-e251-452c-9d83-f99b06981544)
 
-![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/2a47bbbf-01a0-42c2-b614-a6ccbacadb02)
+#### 提示
 
-#### 提示：
+a）FuncGPT(示例).java 是 AI 生成的源代码；
 
-a）FUNC-GPT.java 是 AI 生成的源代码；
-
-b）Base64StringGenerator.java是用来打包的代码。
+b）BigDecimalExpressionCalculator.java是用来打包的代码。
 
 #### 二、一键打包编译上传
 
-#### 1. 下一步，点击“打开Marven”按钮，准备打包
+#### 1. 点击“打开Marven”按钮，进入函数打包。
 
-![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/86821ee9-95d3-44d9-aca9-dc8491d30635)
+![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/2310e385-c78f-484e-ae28-8de3b45efebb)
 
-#### 2. 执行打包
+#### 2. 点击“导入函数到平台”执行打包。
 
-![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/41b8e524-2b34-40dd-838c-d6d068a4e260)
+#### 3. 等待上传包，并确认上传成功。
 
-#### 3. 等待上传包
-
-![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/0430e8bb-8ac3-40da-ac78-a4a2a29ba806)
-
-#### 4. 上传成功
-
-![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/a2cf4192-caac-471c-9c02-a7b1d5dbbdf3)
+![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/0086e37c-a21f-4308-a092-55017ea23e63)
 
 ### 三、项目中加载慧函数
 
@@ -60,8 +52,10 @@ b）Base64StringGenerator.java是用来打包的代码。
 
 #### 2. 点击“设置”图标，选择“加载项”
 
-![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/130383e0-ce9a-41cf-bb13-8bc8cba8ba8f)
+![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/9840c616-c823-41f9-8115-cbf252a35afa)
 
 #### 3. 在“加载项”弹出的对话框中，分别选择：函数-自定义，导入刚刚上传的函数
 
-![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/df616d5a-fdaf-483b-a51d-5293f78f31d1)
+![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/7a113fa1-2669-42ab-9e59-965941ed8ce9)
+
+#### 4. 可以在接口模型中使用单函数组调用此函数。
