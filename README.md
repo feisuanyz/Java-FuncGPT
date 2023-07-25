@@ -1,5 +1,7 @@
 ### Product Introduction
 
+Language: [English](https://github.com/feisuanyz/Java-FuncGPT/blob/main/README.md) | [中文](https://github.com/feisuanyz/Java-FuncGPT/blob/main/READMEcn.md)
+
 Describe Java function requirements using natural language and generate high-quality, readable code in real-time. The generated code can be directly copied to IDEA or imported into Java ADT's function library with one click.
 
 #### Five Major Capabilities
