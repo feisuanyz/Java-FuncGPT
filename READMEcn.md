@@ -1,3 +1,57 @@
+### 功能介绍
+
+FuncGPT（慧函数）支持所有类型的Java函数创建。通过自然语言描述Java函数需求，实时生成高质量、高可读性的Java函数代码。生成代码可直接复制到IDEA，或一键导入Java全自动开发工具函数库。
+
+#### FuncGPT（慧函数）五大能力
+
+● 自然语言：通过自然语言即可生成函数，降低软件开发门槛。
+
+● 秒级函数开发：全自动秒级开发函数，秒级完成，效率千倍提升。
+
+● 一站式函数开发应用：函数生成即可直接应用，效率、安全有保障。
+
+● 质量可靠：生成的函数代码符合业界规范、具备良好的可读性，符合最优解。
+
+● 灵活生成：可以根据开发人员的具体需求生成并支持调整和修改。
+
+![输入图片说明](image/16.PNG)
+
+### 对比测试
+
+测试案例：BigDecimal表达式运算
+
+#### 1. FuncGPT vs 人工代码
+
+|     | FuncGPT（慧函数）                | 人工代码                               |
+|-----|-----------------------------|------------------------------------|
+| 时间  | 23秒                         | 7天                                 |
+| 可读性 | 可读性好，命名合理，注释简洁清晰            | 读性差，命名不规范，注释不清晰                   |
+| 简洁性 | 算法简洁，使用了合适的数据结构和算，避免了复杂的嵌套逻辑和多重判断 | 简洁性差，代码层层嵌套，方法繁琐，不利于后期维护修改 |
+| 健壮性 | 判断空值，健壮性和可靠性好            | 健壮性差，没有判断空值，存在漏洞                     |
+
+对比案例源码：[FuncGPT：BigDecimal表达式运算](https://github.com/feisuanyz/Java-FuncGPT/blob/main/Test%20Case%20Src/Java%20FuncGPT%3A%20BigDecimal%20Expression%20Calculation.md) | [人工代码：BigDecimal表达式运算](https://github.com/feisuanyz/Java-FuncGPT/blob/main/Test%20Case%20Src/Manual%20Code%3A%20BigDecimal%20Expression%20Calculation.md)
+
+#### 2. FuncGPT vs 文心一言
+
+|     | FuncGPT（慧函数）                    | 文心一言                                           |
+|-----|---------------------------------|------------------------------------------------|
+| 时间  | 25秒                             | 1分钟                                            |
+| 灵活性 | 灵活性和可扩展性好，使用栈的数据结构来处理表达式中的操作符和数字 | 不够灵活，可扩展性差，使用字符串分割和循环的方式逐步计算表达式|
+| 健壮性 | 判断空值，健壮性和可靠性好                | 健壮性差，没有判断空值，存在漏洞                                 |
+| 全面性 | 支持处理括号                         | 不支持处理括号                                         |
+
+对比案例源码：[FuncGPT：BigDecimal表达式运算](https://github.com/feisuanyz/Java-FuncGPT/blob/main/Test%20Case%20Src/Java%20FuncGPT%3A%20BigDecimal%20Expression%20Calculation.md) | [文心一言：BigDecimal表达式运算](https://github.com/feisuanyz/Java-FuncGPT/blob/main/Test%20Case%20Src/ERNIE%20Bot%3A%20BigDecimal%20Expression%20Calculation.md)
+
+#### 3. FuncGPT vs ChatGPT-4
+
+|     | FuncGPT（慧函数）                    | ChatGPT-4                                           |
+|-----|---------------------------------|------------------------------------------------|
+| 时间  | 25秒                             | 21秒                                            |
+| 简洁性 | 代码实现清晰明了，将不同的逻辑功能封装成了独立的函数，使得代码的结构更加清晰，易于理解和维护 | 递归实现的过程较为繁琐，容易出错|
+| 健壮性 | 健壮性和可靠性好，提供了异常处理机制    | 健壮性不足，没有提供异常处理机制                                |
+
+对比案例源码：[FuncGPT：BigDecimal表达式运算](https://github.com/feisuanyz/Java-FuncGPT/blob/main/Test%20Case%20Src/Java%20FuncGPT%3A%20BigDecimal%20Expression%20Calculation.md) | [ChatGPT-4：BigDecimal表达式运算](https://github.com/feisuanyz/Java-FuncGPT/blob/main/Test%20Case%20Src/ChatGPT-4%3A%20BigDecimal%20Expression%20Calculation.md)
+
 #### 温馨提示
 
 a）使用慧函数前，请确保已安装SoFlu软件机器人Java全自动开发工具，并已完成账户注册；
