@@ -1,5 +1,7 @@
 ### 功能介绍
 
+语言: [中文](https://github.com/feisuanyz/Java-FuncGPT/blob/main/READMEcn.md) | [English](https://github.com/feisuanyz/Java-FuncGPT/blob/main/README.md)
+
 FuncGPT（慧函数）支持所有类型的Java函数创建。通过自然语言描述Java函数需求，实时生成高质量、高可读性的Java函数代码。生成代码可直接复制到IDEA，或一键导入Java全自动开发工具函数库。
 
 #### FuncGPT（慧函数）五大能力
