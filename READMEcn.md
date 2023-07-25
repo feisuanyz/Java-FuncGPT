@@ -14,7 +14,7 @@ FuncGPT（慧函数）支持所有类型的Java函数创建。通过自然语言
 
 ● 灵活生成：可以根据开发人员的具体需求生成并支持调整和修改。
 
-![输入图片说明](image/16.PNG)
+![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/41b74106-e4c1-4f13-b1e9-91c9fc069913)
 
 ### 对比测试
 
