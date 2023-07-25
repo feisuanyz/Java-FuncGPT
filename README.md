@@ -2,7 +2,7 @@
 
 Describe Java function requirements using natural language and generate high-quality, readable code in real-time. The generated code can be directly copied to IDEA or imported into Java ADT's function library with one click.
 
-Five major capabilities:
+#### Five Major Capabilities
 
 ● Natural Language: Functions can be generated based on natural language descriptions, reducing the barrier to software development.
 
