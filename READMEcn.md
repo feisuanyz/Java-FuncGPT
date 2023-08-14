@@ -92,7 +92,7 @@ b）BigDecimalExpressionCalculator.java是用来打包的代码。
 
 #### 二、一键打包编译上传
 
-#### 1. 点击“打开Marven”按钮，进入函数打包。
+#### 1. 点击“打开Maven”按钮，进入函数打包。
 
 ![image](https://github.com/feisuanyz/Java-FuncGPT/assets/79617492/2310e385-c78f-484e-ae28-8de3b45efebb)
 
